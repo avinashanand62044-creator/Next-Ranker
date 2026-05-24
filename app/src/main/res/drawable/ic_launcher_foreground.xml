@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle drop shadow for the logo -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M54,26 L81,37 L54,48 L27,37 Z M39,42.5 L39.3,51 L54,57 L68.7,51 L69,42.5 Z M27,37 L27,58 L29,58 L29,38 Z" />
+
+    <!-- Main Gold Graduation Cap Top -->
+    <path
+        android:fillType="nonZero"
+        android:pathData="M54,24 L84,36 L54,48 L24,36 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="36"
+                android:endX="84"
+                android:endY="36"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFE082" /> <!-- Soft Gold -->
+                <item android:offset="0.5" android:color="#FFC107" /> <!-- Amber Gold -->
+                <item android:offset="1.0" android:color="#FF8F00" /> <!-- Deep Orange Gold -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cap Base (Neck) -->
+    <path
+        android:fillType="nonZero"
+        android:pathData="M39.5,41.5 C39.5,41.5 39.5,52 54,55 C68.5,52 68.5,41.5 68.5,41.5 L65.5,41.5 C65.5,41.5 63,48 54,49 C45,48 42.5,41.5 42.5,41.5 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="39.5"
+                android:startY="48"
+                android:endX="68.5"
+                android:endY="48"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFB300" />
+                <item android:offset="1.0" android:color="#FF6F00" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Side Tassel tassel -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M24,36 L24,53 C22.5,54 22.5,56 24,57 C25.5,56 25.5,54 24,53 L24,37 Z" />
+
+    <!-- Rising Star Ranker Mark at Center Top -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,16 L56,21 L61,21 L57,24 L59,29 L54,26 L49,29 L51,24 L47,21 L52,21 Z" />
+
+    <!-- Chevron Star Ranker 1 (Sleek Level Indicator 1) -->
+    <path
+        android:fillType="nonZero"
+        android:pathData="M34,64 L54,52 L74,64 L54,71 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="34"
+                android:startY="61.5"
+                android:endX="74"
+                android:endY="61.5"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#81D4FA" /> <!-- Cyan Rank -->
+                <item android:offset="1.0" android:color="#0288D1" /> <!-- Blue Rank -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Chevron Star Ranker 2 (Outer Deep Bottom Level Indicator) -->
+    <path
+        android:pathData="M30,76 L54,64 L78,76 L54,83 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="73.5"
+                android:endX="78"
+                android:endY="73.5"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#B2EBF2" />
+                <item android:offset="1.0" android:color="#00ACC1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+</vector>

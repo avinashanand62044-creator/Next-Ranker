@@ -1,0 +1,6 @@
+{
+  "name": "Next Ranker",
+  "description": "Premium online coaching classes for JEE, NEET, and Foundation with live streaming lectures, practice questions, and an advanced AI Doubt Solver.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
